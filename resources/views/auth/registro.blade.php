@@ -1,8 +1,7 @@
 @extends('app')
 
 @section('contenido')
-<div class="container-fluid">
-  <form action="/register" method="POST">
+<form action="/register" method="POST">
     @csrf
 
     <div class="form-row">
@@ -73,7 +72,4 @@
   
     <button class="btn btn-primary" type="submit">Submit form</button>
   </form>
-
-</div>
-
 @endsection

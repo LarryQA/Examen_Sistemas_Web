@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-light px-5">
+<nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="inicio">SuperClass</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,9 +22,9 @@
       </ul>
       </div>
 
-    <form class="d-flex" >
+    <form class="d-flex">
         
-        <ul class="navbar-nav mr-5 mb-lg-0">
+        <ul class="navbar-nav mr-5 mb-2 mb-lg-0">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                 <p>{{ auth()->user()->primer_nombre}} {{ auth()->user()->primer_apellido}}</p>
