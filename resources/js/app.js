@@ -1,3 +1,3 @@
 import './bootstrap'
-import '../css/app.scss'
+import '../sass/app.scss'
 import * as bootstrap from 'bootstrap'
